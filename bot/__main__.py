@@ -65,7 +65,7 @@ def stats(update, context):
 
 def start(update, context):
     if CustomFilters.authorized_user(update) or CustomFilters.authorized_chat(update):
-        start_string = f'Type /{BotCommands.HelpCommand} to get a list of available commands'
+        start_string = f'Hello Boss 🤗'
         sendMessage(start_string, context.bot, update.message)
 
 def restart(update, context):
